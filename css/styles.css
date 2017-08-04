@@ -1,27 +1,36 @@
+body {
+  background-image: url("../img/bg.jpg");
+  background-size: cover;
+}
+
 .banner {
   /*'outline' is only to assist with layout process*/
   outline: 1px dashed grey;
   height: 20vh;
-  background-color: rgb(214, 234, 140);
+  background-color: rgba(214, 234, 170, .4);
 }
 
 #banner-left {
   /*'outline' is only to assist with layout process*/
   outline: 1px dashed grey;
   float: left;
-  width: 20vh;
-  height: 15vh;
-  margin-left: 5vh;
+  min-height: 15vh;
+  max-height: auto;
+  width: 15vw;
+  /*height: 15vh;*/
+  margin-left: 5vw;
   margin-top: 2vh;
   background-image: url("../img/banner_misty-mountain.jpg");
-  background-size: 50vh 15vh;
-  background-color: rgb(184, 204, 112);
+  background-size: 80vw 15vh;
+  background-repeat: no-repeat;
+  /*background-color: rgba(184, 204, 112, .5);*/
 }
 
 #camera {
-  padding: 5%;
+  /*padding: 2%;*/
   max-width: 100%;
-  max-height: 100%;
+  height: auto;
+  /*max-height: 100%;*/
   opacity: .65;
 }
 
@@ -29,12 +38,13 @@
   /*'outline' is only to assist with layout process*/
   outline: 1px dashed grey;
   float: right;
-  width: 60vh;
+  width: 60vw;
   height: 15vh;
-  margin-right: 5vh;
+  margin-right: 5vw;
   margin-top: 2vh;
   background-image: url("../img/banner_misty-mountain.jpg");
-  background-size: 60vh 15vh;
+  background-size: 60vw 15vh;
+  background-repeat: no-repeat;
 }
 
 /*#banner-text {
@@ -48,8 +58,8 @@
 #my-name {
   padding: 2%;
   /*margin-top: 1%;*/
-  max-width: 100%;
-  max-height: 100%;
+  /*max-width: 100%;
+  max-height: 100%;*/
   opacity: .65;
 }
 
@@ -57,11 +67,12 @@
   /*'outline' is only to assist with layout process*/
   outline: 1px dashed grey;
   height: 80vh;
-  background-color: rgb(214, 234, 0);
+  background-color: rgba(214, 234, 100, .2);
 }
 
 #content-upper {
+  /*'outline' is only to assist with layout process*/
+  outline: 1px dashed grey;
   height: 70%;
   padding: 2%;
-  background-color: rgb(214, 200, 0);
 }
