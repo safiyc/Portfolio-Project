@@ -4,20 +4,23 @@ body {
 }
 
 .banner {
-  /*'outline' is only to assist with layout process*/
   outline: 1px dashed grey;
   height: 20vh;
   background-color: rgba(214, 234, 170, .4);
 }
 
-#banner-left {
-  /*'outline' is only to assist with layout process*/
+.banner-inner {
+  background-image: url("../img/banner_misty-mountain.jpg");
+  background-size: cover;
+}
+
+/*#banner-left {
   outline: 1px dashed grey;
   float: left;
   min-height: 15vh;
   max-height: auto;
   width: 15vw;
-  /*height: 15vh;*/
+  height: 15vh;
   margin-left: 5vw;
   margin-top: 2vh;
   background-image: url("../img/banner_misty-mountain.jpg");
@@ -26,16 +29,7 @@ body {
   /*background-color: rgba(184, 204, 112, .5);*/
 }
 
-#camera {
-  /*padding: 2%;*/
-  max-width: 100%;
-  height: auto;
-  /*max-height: 100%;*/
-  opacity: .65;
-}
-
-#banner-right {
-  /*'outline' is only to assist with layout process*/
+/*#banner-right {
   outline: 1px dashed grey;
   float: right;
   width: 60vw;
@@ -44,35 +38,53 @@ body {
   margin-top: 2vh;
   background-image: url("../img/banner_misty-mountain.jpg");
   background-size: 60vw 15vh;
-  background-repeat: no-repeat;
-}
+  background-repeat: no-repeat;*/
 
-/*#banner-text {
-  padding: 5%;
-  text-align: center;
-  letter-spacing: 2px;
-  font-family: "Archivo Black", monospace;
-  font-weight: bold;
-}*/
-
-#my-name {
-  padding: 2%;
-  /*margin-top: 1%;*/
-  /*max-width: 100%;
-  max-height: 100%;*/
+/*#camera {
+  max-width: 100%;
+  height: auto;
   opacity: .65;
 }
 
+#my-name {
+  padding: 2%;
+  opacity: .65;
+}*/
+
 .content {
-  /*'outline' is only to assist with layout process*/
   outline: 1px dashed grey;
   height: 80vh;
   background-color: rgba(214, 234, 100, .2);
 }
 
-#content-upper {
-  /*'outline' is only to assist with layout process*/
+.content-upper {
   outline: 1px dashed grey;
-  height: 70%;
+  height: 60vh;
   padding: 2%;
 }
+
+#content-upper-left {
+  outline: 1px dashed grey;
+  float: left;
+  width: 49%;
+  height: 55vh;
+}
+
+#content-upper-right {
+  outline: 1px dashed grey;
+  float: right;
+  width: 49%;
+  height: 55vh;
+}
+
+ h3 {
+   text-align: right;
+ }
+
+ ul {
+   list-style: none;
+ }
+
+ .color-brown {
+   color: brown;
+ }
